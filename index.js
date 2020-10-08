@@ -4,7 +4,7 @@ function takeANumber( line, customer) {
 }
 
 function takeANumber_1( line ) {
-  line.
+  var counter;
 }
 
 function nowServing ( line ) {
