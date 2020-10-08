@@ -1,10 +1,14 @@
+var counter = 1;
+
 function takeANumber( line, customer) {
   line.push( customer );
   return `Welcome, ${customer}. You are number ${line.length} in line.`;
 }
 
 function takeANumber_1( line ) {
-  var counter;
+  line.push( counter );
+  var welcome = `Welcome! You are number ${counter} in line.`
+  return welcome;
 }
 
 function nowServing ( line ) {
