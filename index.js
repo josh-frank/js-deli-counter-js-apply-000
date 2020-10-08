@@ -3,7 +3,7 @@ function takeANumber( line, customer) {
   return `Welcome, ${customer}. You are number ${line.length} in line.`;
 }
 
-function takeANumber_1( line, counter ) {
+function takeANumber_1( line ) {
   line.
 }
 
