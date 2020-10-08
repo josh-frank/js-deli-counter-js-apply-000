@@ -3,6 +3,10 @@ function takeANumber( line, customer) {
   return `Welcome, ${customer}. You are number ${line.length} in line.`;
 }
 
+function takeANumber_1( line, customer ) {
+  var counter = 1;
+}
+
 function nowServing ( line ) {
   if ( line.length > 0 ) {
     var serving = line.shift();
