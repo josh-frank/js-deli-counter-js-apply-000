@@ -3,8 +3,8 @@ function takeANumber( line, customer) {
   return `Welcome, ${customer}. You are number ${line.length} in line.`;
 }
 
-function takeANumber_1( line, customer ) {
-  var counter = 1;
+function takeANumber_1( line, counter ) {
+  line.
 }
 
 function nowServing ( line ) {
