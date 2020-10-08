@@ -8,6 +8,7 @@ function takeANumber( line, customer) {
 function takeANumber_1( line ) {
   line.push( counter );
   var welcome = `Welcome! You are number ${counter} in line.`
+  counter++;
   return welcome;
 }
 
